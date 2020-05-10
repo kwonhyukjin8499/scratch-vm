@@ -23,7 +23,8 @@ const builtinExtensions = {
     ev3: () => require('../extensions/scratch3_ev3'),
     makeymakey: () => require('../extensions/scratch3_makeymakey'),
     boost: () => require('../extensions/scratch3_boost'),
-    gdxfor: () => require('../extensions/scratch3_gdx_for')
+    gdxfor: () => require('../extensions/scratch3_gdx_for'),
+    tensorflow: () => require('../extensions/scratch3_tensorflow')
 };
 
 /**
@@ -430,7 +431,7 @@ class ExtensionManager {
                 return callBlockFunc(args, util, realBlockInfo);
             };
             break;
-        }
+          }
         }
 
         return blockInfo;

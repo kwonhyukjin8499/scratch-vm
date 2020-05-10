@@ -29,6 +29,7 @@
     "version": "json -f package.json -I -e \"this.repository.sha = '$(git log -n1 --pretty=format:%H)'\""
   },
   "dependencies": {
+    "@tensorflow/tfjs": "^1.7.4",
     "@vernier/godirect": "1.5.0",
     "arraybuffer-loader": "^1.0.6",
     "atob": "2.1.2",
@@ -40,6 +41,7 @@
     "htmlparser2": "3.10.0",
     "immutable": "3.8.1",
     "jszip": "^3.1.5",
+    "mathjs": "^7.0.0",
     "minilog": "3.1.0",
     "nets": "3.2.0",
     "scratch-parser": "5.0.0",
@@ -64,13 +66,13 @@
     "format-message-cli": "6.2.0",
     "gh-pages": "^1.2.0",
     "in-publish": "^2.0.0",
-    "jsdoc": "^3.5.5",
+    "jsdoc": "^3.6.4",
     "json": "^9.0.4",
     "lodash.defaultsdeep": "4.6.1",
     "pngjs": "^3.3.2",
     "scratch-audio": "latest",
     "scratch-blocks": "latest",
-    "scratch-l10n": "^3.1.20181129221712",
+    "scratch-l10n": "^3.8.20200505213509",
     "scratch-render": "latest",
     "scratch-storage": "^1.1.0",
     "scratch-svg-renderer": "latest",
@@ -79,8 +81,8 @@
     "tap": "^12.0.1",
     "tiny-worker": "^2.1.1",
     "uglifyjs-webpack-plugin": "1.2.7",
-    "webpack": "^4.16.5",
-    "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "^3.1.5"
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
   }
 }
